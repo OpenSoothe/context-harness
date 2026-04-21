@@ -2,6 +2,7 @@
 
 __version__ = "0.1.0"
 
+from context_harness.facade import ContextHarness
 from context_harness.models import (
     Thread,
     ThreadMessage,
@@ -18,6 +19,7 @@ from context_harness.models import (
 )
 
 __all__ = [
+    "ContextHarness",
     "Thread",
     "ThreadMessage",
     "Memory",
